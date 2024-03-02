@@ -1,0 +1,295 @@
+{
+   "chromeMetadata": {
+      "OS": "Windows 10 Version 22H2 (Build 19045.4046)",
+      "application": "Microsoft Edge",
+      "revision": "c44bb51ada3168399d4dd7bc1b3939c261a4ef8f",
+      "version": "121.0.2277.112 (Официальная сборка)  (64-разрядная версия)"
+   },
+   "policyValues": {
+      "chrome": {
+         "name": "Microsoft Edge Policies",
+         "policies": {
+            "AddressBarMicrosoftSearchInBingProviderEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "AdsSettingForIntrusiveAdsSites": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 2
+            },
+            "AlternateErrorPagesEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "AutoImportAtFirstRun": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 0
+            },
+            "AutofillAddressEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "AutofillCreditCardEnabled": {
+               "info": "Эта политика работает по назначению, но то же значение установлено в другом месте и заменяется этой политикой.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [ {
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "value": false
+            },
+            "AutoplayAllowed": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "BackgroundModeEnabled": {
+               "info": "Эта политика работает по назначению, но то же значение установлено в другом месте и заменяется этой политикой.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [ {
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "value": false
+            },
+            "BlockThirdPartyCookies": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": true
+            },
+            "BuiltInDnsClientEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "ConfigureDoNotTrack": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": true
+            },
+            "ConfigureOnlineTextToSpeech": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "DefaultGeolocationSetting": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 3
+            },
+            "EdgeFeedbackEnabled": {
+               "error": "Неизвестная политика.",
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 0
+            },
+            "EdgeShoppingAssistantEnabled": {
+               "info": "Эта политика работает по назначению, но то же значение установлено в другом месте и заменяется этой политикой.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [ {
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "value": false
+            },
+            "LocalProvidersEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "MetricsReportingEnabled": {
+               "error": "Неизвестная политика.",
+               "ignored": true,
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 0
+            },
+            "NetworkPredictionOptions": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 2
+            },
+            "NewTabPagePrerenderEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "PaymentMethodQueryEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "PersonalizationReportingEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "ResolveNavigationErrorsUseWebService": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "SearchSuggestEnabled": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": false
+            },
+            "SendSiteInfoToImproveServices": {
+               "error": "Неизвестная политика.",
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 0
+            },
+            "SleepingTabsEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "SmartScreenEnabled": {
+               "error": "Эта политика заблокирована, поэтому ее значение будет проигнорировано.",
+               "ignored": true,
+               "info": "Эта политика работает по назначению, но то же значение установлено в другом месте и заменяется этой политикой.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [ {
+                  "ignored": true,
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "value": false
+            },
+            "StartupBoostEnabled": {
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "SyncDisabled": {
+               "conflicts": [ {
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": true,
+               "warning": "У этой политики несколько источников с конфликтующими значениями!"
+            },
+            "TrackingPrevention": {
+               "level": "mandatory",
+               "scope": "user",
+               "source": "platform",
+               "value": 3
+            },
+            "UserFeedbackAllowed": {
+               "info": "Эта политика работает по назначению, но то же значение установлено в другом месте и заменяется этой политикой.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [ {
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "value": false
+            },
+            "WebWidgetAllowed": {
+               "deprecated": true,
+               "info": "Эта политика работает по назначению, но то же значение установлено в другом месте и заменяется этой политикой.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "superseded": [ {
+                  "deprecated": true,
+                  "level": "mandatory",
+                  "scope": "user",
+                  "source": "platform",
+                  "value": false
+               } ],
+               "value": false
+            },
+            "WebWidgetIsEnabledOnStartup": {
+               "deprecated": true,
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": false
+            },
+            "WebWidgetlsEnabledOnStartup": {
+               "error": "Неизвестная политика.",
+               "level": "mandatory",
+               "scope": "machine",
+               "source": "platform",
+               "value": 0
+            }
+         }
+      },
+      "extensions": {
+      },
+      "precedence": {
+         "name": "Policy Precedence",
+         "policies": {
+         },
+         "precedenceOrder": [ "Компьютер платформы", "Облачный компьютер", "Пользователь платформы", "Пользователь облака" ]
+      },
+      "updater": {
+         "name": "Microsoft EdgeUpdate Policies",
+         "policies": {
+         }
+      }
+   },
+   "status": {
+      "updater": {
+         "policyDescriptionKey": "statusUpdater",
+         "timeSinceLastRefresh": "24 мин назад",
+         "version": "1.3.183.29"
+      },
+      "user": {
+      }
+   }
+}
